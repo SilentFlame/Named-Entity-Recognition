@@ -77,3 +77,7 @@ LTRC
 IIIT-Hyderabad
 
 -------------------------------------------------------------------------------
+##### Citation #####
+**Named Entity Recognition for Hindi-English Code-Mixed Social Media Text**
+
+2018, 27-35, Proceedings of the Seventh Named Entities Workshop [here](https://aclanthology.info/papers/W18-2405/w18-2405)
