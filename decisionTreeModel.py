@@ -24,8 +24,8 @@ X = np.nan_to_num(X)
 
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
-
-dtc = DecisionTreeClassifier(max_depth=32, class_weight=[{0:1,1:1}, {0:1,1:50}, {0:1,1:18},{0:1,1:1940}, {0:1,1:70},{0:1,1:3},{0:1,1:25}])
+# class_weight=[{0:1,1:1}, {0:1,1:50}, {0:1,1:18},{0:1,1:1940}, {0:1,1:70},{0:1,1:3},{0:1,1:25}] // tested on these ratios.
+dtc = DecisionTreeClassifier(max_depth=32, class_weight=[{0:1, 1:1}])
 gnb = GaussianNB()
 clf = RandomForestClassifier(max_depth=10)
 
